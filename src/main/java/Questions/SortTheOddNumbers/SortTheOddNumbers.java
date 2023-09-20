@@ -1,4 +1,4 @@
-package SortTheOddNumbers;
+package Questions.SortTheOddNumbers;
 
 public class SortTheOddNumbers {
 

@@ -1,6 +1,6 @@
 package Test;
 
-import SortTheOddNumbers.SortTheOddNumbers;
+import Questions.SortTheOddNumbers.SortTheOddNumbers;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
