@@ -1,14 +1,17 @@
 package Questions.ValidAnagram;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ValidAnagram {
 
     public boolean isAnagram(String s, String t) {
-        return false;
-        }
-
+        List<String> sortedS = Arrays.stream(s.split("")).sorted().collect(Collectors.toList());
+        List<String> sortedT = Arrays.stream(t.split("")).sorted().collect(Collectors.toList());
+        return sortedS.equals(sortedT);
     }
+    }
+
+
 
 
