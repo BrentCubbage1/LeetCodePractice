@@ -1,6 +1,7 @@
 https://leetcode.com/problems/find-mode-in-binary-search-tree/solutions/
 
 Video by user CodingNinja(Ex-Amazon) on Youtube on explaining solution: https://www.youtube.com/watch?v=0i1Ze62pTuU&t=15s
+(It's in Python but the theory is correct)
 
 Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.
 
