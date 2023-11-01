@@ -14,9 +14,8 @@ public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
 
         //solution can be faster.
-        
-        String result = "";
 
+        String result = "";
 
         for (int i = 0; i < s.length(); i++){
             for(int j = i + 1; j < s.length(); j++){
@@ -25,13 +24,9 @@ public class LongestPalindromicSubstring {
                 if(isPalindrome(sub) && sub.length() > result.length()){
                     result = sub;
                 }
-
             }
         }
         return result;
-
-
-
 
     }
 }
