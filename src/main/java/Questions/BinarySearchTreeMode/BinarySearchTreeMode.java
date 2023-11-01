@@ -50,23 +50,23 @@ public class BinarySearchTreeMode {
             return;
         }
 
-        goThroughNode(node.left);
-        if(node.val == previousValue){
+        goThroughNode(node.getLeft());
+        if(node.getVal() == previousValue){
             currentCount++;
         } else {
             currentCount = 1;
-            previousValue = node.val;
+            previousValue = node.getVal();
         }
 
         if (currentCount > maxCount){
             maxCount = currentCount;
             modes.clear();
-            modes.add(node.val);
+            modes.add(node.getVal());
         } else if (currentCount == maxCount){
-            modes.add(node.val);
+            modes.add(node.getVal());
         }
 
-        goThroughNode(node.right);
+        goThroughNode(node.getRight());
 
 
     }
