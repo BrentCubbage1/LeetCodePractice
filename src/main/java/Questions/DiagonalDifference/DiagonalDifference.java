@@ -1,5 +1,6 @@
 package Questions.DiagonalDifference;
 
+import java.math.BigInteger;
 import java.util.List;
 
 public class DiagonalDifference {
@@ -13,6 +14,8 @@ public class DiagonalDifference {
             diagonalOne += arr.get(i).get(i);
             diagonalTwo += arr.get(lastIndex - i).get(i);
         }
+
+        BigInteger integer = BigInteger.valueOf(1);
 
         return Math.abs(diagonalOne - diagonalTwo);
 

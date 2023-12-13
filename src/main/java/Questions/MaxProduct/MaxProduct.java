@@ -1,25 +1,27 @@
 package Questions.MaxProduct;
 
+import java.math.BigInteger;
+
 public class MaxProduct {
 
 
     public int maximumProduct(int[] nums){
     int highestNumber = Integer.MIN_VALUE;
 
-        for (int i = 0; i < nums.length; i++){
-        int value1 = nums[i] - 1;
+        for (int i = 0; i < nums.length; i++) {
+            int value1 = nums[i] - 1;
 
-        for (int j = i + 1; j < nums.length; j++){
-            int value2 = nums[j] - 1;
+            for (int j = i + 1; j < nums.length; j++) {
+                int value2 = nums[j] - 1;
 
-            int maxValue = value1 * value2;
+                int maxValue = value1 * value2;
 
-            if(maxValue > highestNumber){
-                highestNumber = maxValue;
+                if (maxValue > highestNumber) {
+                    highestNumber = maxValue;
+                }
+
             }
-
         }
-    }
 
         return highestNumber;
 
