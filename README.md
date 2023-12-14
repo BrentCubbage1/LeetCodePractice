@@ -5,7 +5,9 @@
 Then navigate to Readme.md and find the question link at the top.**
 
 
-Problems practiced on LeetCode and Codewars. 
+A collection of coding challenges I have been practicing my java/js with. 
+
+Challenges from Hackerrank, Leetcode && Codewars
 
 Problems are separated by Packages.
 
