@@ -1,5 +1,9 @@
 package Questions.AreStringHalvesAlike;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class StringHalvesAlike {
 
     public boolean halvesAreAlike(String s) {
